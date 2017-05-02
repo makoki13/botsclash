@@ -1,6 +1,6 @@
 import clsPersonaje
 
-x = clsPersonaje.Personaje("Makoki")
+x = clsPersonaje.Personaje("Makoki", 20 , 1, 4)
 print (x.getNombre())
 print (x.getVida())
 x.aumentaVida(20)
