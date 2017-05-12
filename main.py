@@ -143,11 +143,7 @@ class DemoFrame2(Frame):
         self._reset_button = Button("Añadir personaje", self._reset)
         #layout.add_widget(self._reset_button, 0)
         #layout.add_widget(Button("Salir", self._quit), 0)
-        layout.add_widget(Label("Group 1:"), 1)
-        layout.add_widget(TextBox(5,
-                                  label="My First Box:",
-                                  name="TA",
-                                  on_change=self._on_change), 1)
+        
         layout.add_widget(
             Text(label="Alpha:",
                  name="TB",
